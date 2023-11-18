@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Jost;
+    src: url("/assets/fonts/Jost/Jost-VariableFont_wght.ttf");
+}
+
+:root {
+    --light-background: 245, 245, 245;
+    --primary: 68, 73, 80;
+    --secondary: 98, 104, 111;
+    --gray: 131, 137, 145;
+    --light-gray: 163, 170, 179;
+
+    --light-background-color: rgb(var(--light-background));
+    --primary-color: rgb(var(--primary));
+    --secondary-color: rgb(var(--secondary));
+    --gray-color: rgb(var(--gray));
+    --light-gray-color: rgb(var(--light-gray));
+
+    font-family: Jost;
+    font-size: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: var(--light-background-color);
+}
+
+body {
+    margin: 0;
+}
