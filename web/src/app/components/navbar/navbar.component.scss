@@ -1,9 +1,23 @@
 nav {
+    display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid rgba(var(--light-gray), 0.6);
 
     .nav-buttons {
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    .nav-left-side {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .nav-right-side {
+        display: flex;
+        justify-content: flex-end;
         align-items: center;
     }
 }

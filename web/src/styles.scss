@@ -37,3 +37,48 @@ body {
     margin: 0;
     background: var(--light-background-color);
 }
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.content-evenly-scattered {
+        justify-content: space-around;
+    }
+
+    &.content-centered {
+        justify-content: center;
+    }
+
+    &.align-centered {
+        align-items: center;
+    }
+
+    &.evenly-2 > * {
+        flex: 1 1 50%;
+    }
+
+    &.evenly > * {
+        flex: 1 1 auto;
+    }
+}
+
+.flex-row {
+    flex-direction: row;
+
+    &.flex-reversed {
+        flex-direction: row-reverse;
+    }
+}
+
+.flex-column {
+    flex-direction: column;
+
+    &.flex-reversed {
+        flex-direction: column-reverse;
+    }
+}
+
+.align-self-center {
+    align-self: center;
+}

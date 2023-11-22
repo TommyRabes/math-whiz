@@ -1,4 +1,23 @@
 :host {
+    .section {
+        min-height: 400px;
+
+        maw-card {
+            maw-card-content {
+                .card-content {
+                    padding: 5px 10px;
+                }
+                .headline {
+                    font-size: 18px;
+                }
+                .description {
+                    font-size: 16px;
+                    color: var(--light-gray-color);
+                }
+            }
+        }
+    }
+
     .background-gradient-gray {
         background: var(--light-gray-color);
         background: linear-gradient(110deg, rgb(230, 230, 230) 0%, var(--light-background-color) 100%);
@@ -14,19 +33,5 @@
             font-size: 28px;
             margin: 10px 0;
         }
-    }
-
-    .flex {
-        display: flex;
-        flex-wrap: wrap;
-
-        &.evenly-2 > * {
-            flex: 1 1 50%;
-        }
-    }
-
-    .flex-center {
-        justify-content: center;
-        align-items: center;
     }
 }
