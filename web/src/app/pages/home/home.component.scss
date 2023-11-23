@@ -3,9 +3,16 @@
         min-height: 400px;
 
         maw-card {
+            background-color: var(--light-background-color);
+
             maw-card-content {
                 .card-content {
                     padding: 5px 10px;
+
+                    & > div {
+                        padding-top: 20px;
+                        background-color: radial-gradient();
+                    }
                 }
                 .headline {
                     font-size: 18px;
@@ -15,6 +22,10 @@
                     color: var(--light-gray-color);
                 }
             }
+        }
+
+        .section-button {
+            margin-top: 30px;
         }
     }
 
