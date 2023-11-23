@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Size, parseSize } from '../../constants/ui/size';
+import { Size, castSize } from '../../constants/ui/size';
+import { ButtonVariant, EdgeVariant, castButtonVariant, castEdgeVariant } from '../../constants/ui/variants';
 
 @Component({
   selector: 'maw-button',
@@ -11,6 +12,8 @@ import { Size, parseSize } from '../../constants/ui/size';
 })
 export class ButtonComponent {
 
-  @Input({ transform: parseSize }) protected size: Size = Size.M;
+  @Input({ transform: castSize }) protected size: Size = Size.m;
+  @Input({ transform: castButtonVariant }) protected variant: ButtonVariant = ButtonVariant.fill;
+  @Input({ transform: castEdgeVariant }) protected edge: EdgeVariant = EdgeVariant.sharp;
 
 }

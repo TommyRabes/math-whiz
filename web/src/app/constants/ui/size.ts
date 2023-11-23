@@ -1,13 +1,13 @@
 export enum Size {
-    XXS = 'XXS',
-    XS = 'XS',
-    S = 'S',
-    M = 'M',
-    L = 'L',
-    XL = 'XL',
-    XXL = 'XXL'
+    xxs = 'xxs',
+    xs = 'xs',
+    s = 's',
+    m = 'm',
+    l = 'l',
+    xl = 'xl',
+    xxl = 'xxl'
 }
 
-export function parseSize(size: 'XXS' | 'XS' | 'S' | 'M' | 'L' | 'XL' | 'XXL'): Size {
-    return Size[size];
+export function castSize(size: keyof typeof Size): Size {
+    return size as Size;
 }

@@ -3,12 +3,37 @@
 
     button {
         padding: 12px;
-        background-color: var(--charcoal-color);
-        color: white;
         font-size: 18px;
         cursor: pointer;
 
-        &.xxs-size, &.xs-size {
+        &.fill {
+            border: 1px solid var(--charcoal-color);
+            background-color: var(--charcoal-color);
+            color: var(--light-background-color);
+        }
+
+        &.outlined {
+            color: var(--charcoal-color);
+            border: 1px solid var(--charcoal-color);
+            background-color: var(--light-background-color);
+        }
+
+        &.sharp {
+            border-radius: 0;
+        }
+
+        &.rounded {
+            border-radius: 8px;
+        }
+
+        &.xxs-size {
+            padding: 4px 6px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        &.xs-size {
             padding: 8px;
             font-size: 12px;
         }

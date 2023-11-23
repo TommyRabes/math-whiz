@@ -1,1 +1,3 @@
-<button [class]="size.toLowerCase() + '-size'"><ng-content /></button>
+<button [class]="[size + '-size', variant, edge]">
+    <ng-content />
+</button>
