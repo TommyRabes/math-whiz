@@ -5,6 +5,7 @@
 
 :root {
     --light-background: 245, 245, 245;
+    --gray-background: 213, 220, 229;
     --primary: 68, 73, 80;
     --secondary: 98, 104, 111;
     --gray: 131, 137, 145;
@@ -14,6 +15,7 @@
     --emerald-green: 0, 128, 0;
 
     --light-background-color: rgb(var(--light-background));
+    --gray-background-color: rgb(var(--gray-background));
     --primary-color: rgb(var(--primary));
     --secondary-color: rgb(var(--secondary));
     --gray-color: rgb(var(--gray));
@@ -113,4 +115,8 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.fill-viewport {
+    height: 100vh;
 }

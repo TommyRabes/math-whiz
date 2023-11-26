@@ -12,7 +12,7 @@ import { ButtonVariant, EdgeVariant, castButtonVariant, castEdgeVariant } from '
 })
 export class ButtonComponent {
 
-  @Input({ transform: castSize }) protected size: Size = Size.m;
+  @Input({ transform: castSize }) protected size: Size = Size.s;
   @Input({ transform: castButtonVariant }) protected variant: ButtonVariant = ButtonVariant.fill;
   @Input({ transform: castEdgeVariant }) protected edge: EdgeVariant = EdgeVariant.sharp;
 
