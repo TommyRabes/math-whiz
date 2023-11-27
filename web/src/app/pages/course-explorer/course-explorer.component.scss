@@ -8,6 +8,19 @@
         svg * {
             stroke: var(--gray-color);
         }
+
+        svg text {
+            stroke-width: 0;
+            fill: var(--gray-color);
+        }
+
+        .search-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
     }
 
     maw-search-bar {
