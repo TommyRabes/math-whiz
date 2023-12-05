@@ -1,1 +1,4 @@
-<input type="text" name="search" [placeholder]="placeholder" [class]="[size + '-size', variant, edge]" />
+<div [class]="[size + '-size', variant, edge, 'flex']">
+    <input type="text" name="search" [placeholder]="placeholder" />
+    <ng-content select="text-field-end-slot" />
+</div>

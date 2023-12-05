@@ -1,2 +1,4 @@
 <maw-text-field [size]="size" [edge]="edge" placeholder="Type a course name..." />
-<maw-button [size]="size" [edge]="edge">Find</maw-button>
+<maw-button ngProjectAs="text-field-end-slot" [size]="size" [edge]="edge">
+    <span class="material-symbols-outlined">send</span>
+</maw-button>
