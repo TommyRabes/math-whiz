@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 120 120">
+    <title>cube</title>
+    <g stroke-width="2" stroke="rgb(131, 137, 145)" fill="none" transform="rotate(-20 50 50)">
+        <rect x="5" y="35" width="60" height="60" />
+        <polyline points="5,35 35,10 95,10 65,35" />
+        <polyline points="65,95 97,70 97,10" />
+        <line x1="35" y1="10" x2="35" y2="70" stroke-width="1" stroke-dasharray="4 2" />
+        <polyline points="5,95 35,70 95,70" stroke-width="1" stroke-dasharray="4 2" />
+        <line x1="70" y1="37" x2="70" y2="87" stroke-width="1" />
+        <polyline points="68,39 70,37 72,39" stroke-width="1" />
+        <polyline points="68,85 70,87 72,85" stroke-width="1" />
+        <text x="73" y="60" stroke-width="0" style="font: bold 15px Nanum-Pen-Script;">a</text>
+    </g>
+</svg>

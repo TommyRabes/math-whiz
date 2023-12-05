@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" >
+    <title>xsquaregraph</title>
+    <defs>
+        <style>
+            @font-face {
+                font-family: "Nanum-Pen-Script";
+                src: url("/assets/fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf") format("truetype");
+            }
+
+            text {
+                fill: rgb(131, 137, 145);
+            }
+        </style>
+    </defs>
+    <g transform="rotate(15 50 50)" stroke-width="1" stroke="rgb(131, 137, 145)">
+        <line x1="0" y1="80" x2="99" y2="80" />
+        <line x1="50" y1="1" x2="50" y2="100" />
+        <polyline fill="none" points="48,3 50,1 52,3" />
+        <polyline fill="none" points="97,78 99,80 97,82" />
+        <text x="85" y="88" stroke-width="0" style="font: bold 5px Nanum-Pen-Script;">x axis</text>
+        <text x="55" y="5" stroke-width="0" style="font: bold 5px Nanum-Pen-Script">y axis</text>
+        <path
+            fill="none"
+            d="M 20,0
+                Q 50,159 80,0" stroke-width="0.5" />
+        <polyline fill="none" points="50,50 68,50 68,80" stroke-dasharray="4 1" stroke-width="0.5" />
+        <line x1="60" y1="79" x2="60" y2="81" />
+        <line x1="70" y1="79" x2="70" y2="81" />
+        <line x1="80" y1="79" x2="80" y2="81" />
+        <line x1="90" y1="79" x2="90" y2="81" />
+
+        <line x1="49" y1="70" x2="51" y2="70" />
+        <line x1="49" y1="60" x2="51" y2="60" />
+        <line x1="49" y1="50" x2="51" y2="50" />
+        <line x1="49" y1="40" x2="51" y2="40" />
+        <line x1="49" y1="30" x2="51" y2="30" />
+        <line x1="49" y1="20" x2="51" y2="20" />
+        <line x1="49" y1="10" x2="51" y2="10" />
+    </g>
+</svg>

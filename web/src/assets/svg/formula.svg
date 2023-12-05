@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" >
+    <title>formula</title>
+    <defs>
+        <style>
+            @font-face {
+                font-family: "Nanum-Pen-Script";
+                src: url("/assets/fonts/Nanum_Pen_Script/NanumPenScript-Regular.ttf") format("truetype");
+            }
+        </style>
+    </defs>
+    <g stroke="rgb(131, 137, 145)" fill="rgb(131, 137, 145)" transform="rotate(-50 50 50)">
+        <text x="20" y="45" stroke-width="0" style="font: bold 15px Nanum-Pen-Script;">x =</text>
+        <text x="40" y="40" stroke-width="0" style="font: bold 15px Nanum-Pen-Script;">-b +</text>
+        <text x="62" y="37" stroke-width="0" style="font: bold 15px Patrick-Hand-SC;">√</text>
+        <text x="69" y="37" stroke-width="0" style="font: bold 10px Patrick-Hand-SC;">Δ</text>
+        <line x1="40" y1="41" x2="75" y2="41" stroke-width="1" />
+        <text x="50" y="53" stroke-width="0" stroke-linecap="round" style="font: bold 15px Nanum-Pen-Script;">2a</text>
+    </g>
+</svg>

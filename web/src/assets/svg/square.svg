@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <title>square</title>
+    <g fill="none" stroke-width="2" stroke="rgb(131, 137, 145)" transform="rotate(-10 50 50)">
+        <rect x="20" y="20" width="60" height="60" />
+    </g>
+</svg>
