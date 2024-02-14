@@ -1,0 +1,9 @@
+:host {
+    .sign-on-buttons {
+        display: flex;
+
+        .sign-in, .sign-up {
+            margin: 0 5px;
+        }
+    }
+}
